@@ -1,10 +1,10 @@
 :root{
-  --bg:#fbfaf8;
-  --bg-alt:#f3efe9;
-  --header:#efe9e2;
-  --text:#2f2f2f;
-  --accent:#a67856;
-  --border:#e5ddd5;
+  --bg:#F4F1EC;
+  --bg-alt:#EDE7DE;
+  --header:#07182F;
+  --text:#1E2430;
+  --accent:#C9A46A;
+  --border:#D8D1C7;
 }
 
 *{box-sizing:border-box;}
@@ -12,8 +12,8 @@
 body{
   margin:0;
   font-family:'Lato',Arial,sans-serif;
-  background:var(--bg);
-  color:var(--text);
+ background: var(--bg);
+color: var(--text);
 }
 
 .site-header{
@@ -21,7 +21,8 @@ body{
   justify-content:space-between;
   align-items:center;
   padding:15px 25px;
-  background:var(--header);
+background: linear-gradient(135deg,#07182F,#0B2345);
+color:white;
   position:sticky;
   top:0;
 }
@@ -51,11 +52,11 @@ nav a{text-decoration:none;color:#444;font-weight:600;}
 .hero-cta{margin-top:20px;display:flex;gap:12px;justify-content:center;}
 
 .btn{
-  padding:12px 16px;
-  border-radius:12px;
-  text-decoration:none;
-  font-weight:700;
-  border:1px solid var(--border);
+background: var(--accent);
+color:#07182F;
+border:none;
+font-weight:600;
+border-radius:999px;
 }
 .btn.primary{background:var(--accent);color:#fff;}
 .btn.ghost{background:#fff;color:#333;}
