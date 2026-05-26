@@ -413,3 +413,18 @@ nav a:hover{
   .menu-toggle{display:flex;}
   .hero{padding:90px 20px;}
 }
+.section{
+  text-align:center;
+}
+
+.section h2{
+  text-align:center;
+  font-size:clamp(2.5rem,5vw,4rem);
+  margin-bottom:35px;
+}
+
+.section p{
+  max-width:850px;
+  margin-left:auto;
+  margin-right:auto;
+}
